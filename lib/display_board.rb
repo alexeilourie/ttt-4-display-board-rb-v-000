@@ -1,7 +1,7 @@
 # Define display_board that accepts a board and prints
 # out the current state.
 def display_board(board)
-  9.times.with_index do |idx|
+  9.times do |idx|
     if board[idx] == nil
         board[idx] = " "
     end
